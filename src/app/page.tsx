@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { JetBrainsMono } from '@/lib/font';
-import { RiDiscordFill, RiMailFill } from 'react-icons/ri';
+import { RiDiscordFill, RiMailFill, RiTwitchFill } from 'react-icons/ri';
 import { IconLink } from '@/components/IconLink';
 import { twMerge } from 'tailwind-merge';
 import { TypeWriter } from '@/components/Typewriter';
@@ -39,11 +39,12 @@ export default function Home() {
               >
                 <RiDiscordFill />
               </IconLink>
+              
             </div>
           </div>
           <Image
             src="https://github.com/l0stedmrlion.png"
-            alt="twlite"
+            alt="Mrlion"
             width={300}
             height={300}
             className="rounded-full h-[200px] w-[200px] lg:h-[300px] lg:w-[300px]"
