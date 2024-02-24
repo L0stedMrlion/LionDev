@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text: #030c0c;
+    --background: #f8f8f8;
+    --primary: #eab308;
+    --secondary: #e6e6e6;
+    --accent: #eab308;
+  }
+  .dark {
+    --text: #f3fcfc;
+    --background: #0f0f1b;
+    --primary: #eab308;
+    --secondary: #1a1a1a;
+    --accent: #eab308;
+  }
+}
+
+.blink {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
