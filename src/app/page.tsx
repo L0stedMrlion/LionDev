@@ -28,7 +28,7 @@ export default function Home() {
             />
             <div className="flex items-center justify-center lg:justify-start gap-4 lg:mt-16 mt-8">
               <IconLink
-                href="mailto:hello@twlite.dev"
+                href="mailto:mrlion@lionsproject.eu"
                 className="hover:text-accent"
               >
                 <RiMailFill />
@@ -39,7 +39,12 @@ export default function Home() {
               >
                 <RiDiscordFill />
               </IconLink>
-              
+              <IconLink
+                href="https://twitch.com/lostedmrlion"
+                className="hover:text-blue-600"
+              >
+                <RiTwitchFill />
+              </IconLink>
             </div>
           </div>
           <Image
