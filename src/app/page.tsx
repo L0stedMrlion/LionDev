@@ -41,7 +41,7 @@ export default function Home() {
               </IconLink>
               <IconLink
                 href="https://twitch.com/lostedmrlion"
-                className="hover:text-blue-600"
+                className="hover:text-purple-600"
               >
                 <RiTwitchFill />
               </IconLink>
@@ -56,6 +56,7 @@ export default function Home() {
             draggable={false}
           />
         </div>
+        <p className="position:absolute bottom:0">Inspired by Twlite.dev</p>
       </main>
     </div>
   );

@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useState } from 'react';
-import { FiSun, FiMoon } from 'react-icons/fi';
+import { RiSunFill, RiMoonFill } from "react-icons/ri";
 
 export function ThemeSwitch() {
   const [dark, setDark] = useState(true);
@@ -21,7 +21,7 @@ export function ThemeSwitch() {
       className="text-text transition-all duration-200 p-2 rounded-md"
       onClick={toggleTheme}
     >
-      {dark ? <FiMoon /> : <FiSun />}
+      {dark ? <RiMoonFill /> : <RiSunFill />}
     </button>
   );
 }
