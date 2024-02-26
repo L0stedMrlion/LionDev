@@ -5,6 +5,7 @@ import { ButtonLink } from '@/components/ButtonLink';
 import { twMerge } from 'tailwind-merge';
 import { TypeWriter } from '@/components/Typewriter';
 import { Navbar } from '@/components/Navbar';
+import lion from "public/lion.png"
 
 export default function Home() {
   return (
@@ -70,15 +71,17 @@ export default function Home() {
                 <RiHandCoinFill />
               </ButtonLink>
             </div>
+            </div>
+            <div className="profile-image">
+            <Image
+              src="https://github.com/L0stedMrlion.png"
+              alt="Mrlion"
+              width={300}
+              height={300}
+              className="aspect-square rounded-full h-[200px] lg:h-[300px]"
+              draggable={false}
+            />
           </div>
-          <Image
-            src="https://github.com/l0stedmrlion.png"
-            alt="Mrlion"
-            width={300}
-            height={300}
-            className="rounded-full h-[200px] w-[200px] lg:h-[300px] lg:w-[300px]"
-            draggable={false}
-          />
         </div>
         <p className="position:absolute bottom:0">Inspired by Twlite.dev</p>
       </main>
