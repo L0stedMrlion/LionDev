@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { JetBrainsMono } from '@/lib/font';
-import { RiDiscordFill, RiMailFill, RiTwitchFill } from 'react-icons/ri';
+import { RiDiscordFill, RiMailFill, RiTwitchFill, RiInstagramLine } from 'react-icons/ri';
 import { IconLink } from '@/components/IconLink';
 import { twMerge } from 'tailwind-merge';
 import { TypeWriter } from '@/components/Typewriter';
@@ -44,6 +44,12 @@ export default function Home() {
                 className="hover:text-purple-600"
               >
                 <RiTwitchFill />
+              </IconLink>
+              <IconLink
+                href="https://instagram.com/real.mrlion"
+                className="hover:text-orange-500"
+              >
+                <RiInstagramLine />
               </IconLink>
             </div>
           </div>
