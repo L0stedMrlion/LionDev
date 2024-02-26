@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { JetBrainsMono } from '@/lib/font';
-import { RiDiscordFill, RiMailLine, RiTwitchFill, RiInstagramLine, RiGithubFill, RiHandCoinFill } from 'react-icons/ri';
+import { RiDiscordFill, RiMailLine, RiTwitchFill, RiInstagramLine, RiGithubFill, RiHandCoinFill, RiSpotifyFill } from 'react-icons/ri';
 import { IconLink } from '@/components/IconLink';
 import { twMerge } from 'tailwind-merge';
 import { TypeWriter } from '@/components/Typewriter';
@@ -56,6 +56,12 @@ export default function Home() {
                 className="hover:text-slate-600"
               >
                 <RiGithubFill />
+              </IconLink>
+              <IconLink
+                href="https://open.spotify.com/user/31qnc912ik24ama3kbljcfmbq?si=71062f18c5a743e8"
+                className="hover:text-green-600"
+              >
+                <RiSpotifyFill />
               </IconLink>
               <IconLink
                 href="https://paypal.me/lostedmrlion"
