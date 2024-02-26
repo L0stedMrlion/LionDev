@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { twMerge } from 'tailwind-merge';
 
-export function IconLink({
+export function ButtonLink({
   children,
   href,
   className,

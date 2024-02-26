@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import { JetBrainsMono } from '@/lib/font';
 import { RiDiscordFill, RiMailLine, RiTwitchFill, RiInstagramLine, RiGithubFill, RiHandCoinFill, RiSpotifyFill } from 'react-icons/ri';
-import { IconLink } from '@/components/IconLink';
+import { ButtonLink } from '@/components/ButtonLink';
 import { twMerge } from 'tailwind-merge';
 import { TypeWriter } from '@/components/Typewriter';
-import { Nav } from '@/components/Nav';
+import { Navbar } from '@/components/Navbar';
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         JetBrainsMono.className
       )}
     >
-      <Nav />
+      <Navbar />
       <main className="grid place-items-center h-2/3">
         <div className="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-16">
           <div>
@@ -27,48 +27,48 @@ export default function Home() {
               text="Fullstack Developer"
             />
             <div className="flex items-center justify-center lg:justify-start gap-4 lg:mt-16 mt-8">
-              <IconLink
+              <ButtonLink
                 href="mailto:mrlion@lionsproject.eu"
                 className="hover:text-accent"
               >
                 <RiMailLine />
-              </IconLink>
-              <IconLink
+              </ButtonLink>
+              <ButtonLink
                 href="https://discord.com/users/916316955772862475"
                 className="hover:text-blue-600"
               >
                 <RiDiscordFill />
-              </IconLink>
-              <IconLink
+              </ButtonLink>
+              <ButtonLink
                 href="https://twitch.com/lostedmrlion"
                 className="hover:text-purple-600"
               >
                 <RiTwitchFill />
-              </IconLink>
-              <IconLink
+              </ButtonLink>
+              <ButtonLink
                 href="https://instagram.com/real.mrlion"
                 className="hover:text-orange-500"
               >
                 <RiInstagramLine />
-              </IconLink>
-              <IconLink
+              </ButtonLink>
+              <ButtonLink
                 href="https://github.com/L0stedMrlion"
                 className="hover:text-slate-600"
               >
                 <RiGithubFill />
-              </IconLink>
-              <IconLink
+              </ButtonLink>
+              <ButtonLink
                 href="https://open.spotify.com/user/31qnc912ik24ama3kbljcfmbq?si=71062f18c5a743e8"
                 className="hover:text-green-600"
               >
                 <RiSpotifyFill />
-              </IconLink>
-              <IconLink
+              </ButtonLink>
+              <ButtonLink
                 href="https://paypal.me/lostedmrlion"
                 className="hover:text-yellow-400"
               >
                 <RiHandCoinFill />
-              </IconLink>
+              </ButtonLink>
             </div>
           </div>
           <Image
