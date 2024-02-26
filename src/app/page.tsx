@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { JetBrainsMono } from '@/lib/font';
-import { RiDiscordFill, RiMailFill, RiTwitchFill, RiInstagramLine } from 'react-icons/ri';
+import { RiDiscordFill, RiMailLine, RiTwitchFill, RiInstagramLine, RiGithubFill, RiHandCoinFill } from 'react-icons/ri';
 import { IconLink } from '@/components/IconLink';
 import { twMerge } from 'tailwind-merge';
 import { TypeWriter } from '@/components/Typewriter';
@@ -31,7 +31,7 @@ export default function Home() {
                 href="mailto:mrlion@lionsproject.eu"
                 className="hover:text-accent"
               >
-                <RiMailFill />
+                <RiMailLine />
               </IconLink>
               <IconLink
                 href="https://discord.com/users/916316955772862475"
@@ -50,6 +50,18 @@ export default function Home() {
                 className="hover:text-orange-500"
               >
                 <RiInstagramLine />
+              </IconLink>
+              <IconLink
+                href="https://github.com/L0stedMrlion"
+                className="hover:text-slate-600"
+              >
+                <RiGithubFill />
+              </IconLink>
+              <IconLink
+                href="https://paypal.me/lostedmrlion"
+                className="hover:text-yellow-400"
+              >
+                <RiHandCoinFill />
               </IconLink>
             </div>
           </div>
