@@ -78,7 +78,7 @@ export default function Home() {
               alt="Mrlion"
               width={300}
               height={300}
-              className="aspect-square rounded-full h-[200px] lg:h-[300px]"
+              className="aspect-square rounded-full h-[200px] lg:h-[300px] position:fixed"
               draggable={false}
             />
           </div>
