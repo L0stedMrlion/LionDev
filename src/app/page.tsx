@@ -66,7 +66,7 @@ export default function Home() {
               </ButtonLink>
               <ButtonLink
                 href="https://paypal.me/lostedmrlion"
-                className="hover:text-yellow-400"
+                className="hover:text-yellow-500"
               >
                 <RiHandCoinFill />
               </ButtonLink>
