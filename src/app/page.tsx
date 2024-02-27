@@ -5,7 +5,6 @@ import { ButtonLink } from '@/components/ButtonLink';
 import { twMerge } from 'tailwind-merge';
 import { TypeWriter } from '@/components/Typewriter';
 import { Navbar } from '@/components/Navbar';
-import lion from "public/lion.png"
 
 export default function Home() {
   return (
@@ -18,7 +17,7 @@ export default function Home() {
     >
       <Navbar />
       <main className="grid place-items-center h-2/3">
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-16">
+        <div className="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-18">
           <div>
             <h1 className="text-2xl lg:text-5xl font-bold text-primary text-center lg:text-start">
               Mrlion
