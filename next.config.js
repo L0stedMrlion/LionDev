@@ -1,20 +1,22 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
+    output: 'export',
     images: {
-        remotePatterns: [
-            {
-                hostname: 'avatars.githubusercontent.com'
-            },
-            {
-                hostname: 'github.com'
-            }
-        ]
+      loader: 'custom',
+      loaderFile: "./page.tsx",
+      remotePatterns: [
+        { hostname: 'avatars.githubusercontent.com' },
+        { hostname: 'github.com' },
+      ],
     },
     typescript: {
-        ignoreBuildErrors: true
+      ignoreBuildErrors: true,
     },
     poweredByHeader: false,
     optimizeFonts: true,
-}
-
-module.exports = nextConfig
+  };
+  
+  module.exports = nextConfig;
+  
