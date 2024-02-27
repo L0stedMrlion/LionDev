@@ -3,5 +3,5 @@
   }
   .profile-image:hover {
     transform: rotate(360deg);
-    transition: all 3.0s ease-in-out;
+    transition: all 2.3s ease-in-out;
   }
