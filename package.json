@@ -1,6 +1,7 @@
 {
   "name": "lion.dev",
-  "version": "1.0",
+  "version": "RELEASE 1.0",
+  "author": "Mainly Inspirated by Twlite, but author is Mrlion",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
