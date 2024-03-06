@@ -1,5 +1,5 @@
 <h1 align="center"> 🦁 LionDev</h1>
-<h2 align="center">🛠️ Languages & Libraries used for this project</h2>
+<h2 align="center">🛠️ Languages, Libraries, Tools and editors used for this project</h2>
 <p align="center"> 
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
